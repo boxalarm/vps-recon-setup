@@ -5,7 +5,7 @@ This should run to completion without the need for any interaction on your part.
 
 # Considerations
 - This will take ~40 minutes to run 
-- You’ll end up using around 24G of disk space
+- You’ll want to have at least 50GB of disk space (you'll have at least 25GB avail after tool / wordlist install)
 - Make sure you run this as root
 - Works on Debian (specifically tested on Ubuntu 23.10 x64)
 - Make sure to run “source ~/.bashrc” after the script finishes to update your $PATH
@@ -53,8 +53,8 @@ IP Ranges - https://github.com/lord-alfred/ipranges/blob/main/all/ipv4_merged.tx
 
 **Run this as root**
 
-git clone https://github.com/boxalarm/vps-recon-setup  
-cd vps-recon-setup  
-chmod +x vps-recon-setup.sh  
-./vps-recon-setup.sh  
-source ~/.bashrc
+\# git clone https://github.com/boxalarm/vps-recon-setup  
+\# cd vps-recon-setup  
+\# chmod +x vps-recon-setup.sh  
+\# ./vps-recon-setup.sh  
+\# source ~/.bashrc
