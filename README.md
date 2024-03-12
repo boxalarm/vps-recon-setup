@@ -50,6 +50,9 @@ AssetNote - http://wordlists.assetnote.io
 IP Ranges - https://github.com/lord-alfred/ipranges/blob/main/all/ipv4_merged.txt
 
 # Install
+
+**Run this as root**
+
 git clone https://github.com/boxalarm/vps-recon-setup  
 cd vps-recon-setup  
 chmod +x vps-recon-setup.sh  
