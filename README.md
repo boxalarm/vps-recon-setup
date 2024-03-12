@@ -56,5 +56,5 @@ IP Ranges - https://github.com/lord-alfred/ipranges/blob/main/all/ipv4_merged.tx
 git clone https://github.com/boxalarm/vps-recon-setup  
 cd vps-recon-setup  
 chmod +x vps-recon-setup.sh  
-sudo ./vps-recon-setup.sh  
+./vps-recon-setup.sh  
 source ~/.bashrc
