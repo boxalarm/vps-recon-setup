@@ -44,14 +44,14 @@ Here is the current list of tools that are installed with this script (I'll be a
 
 All wordlists are found in /root/wordlists except for SecLists which is located in /usr/share/seclists.
 
-SecLists - https://github.com/danielmiessler/SecLists 
-OneListForAll - https://github.com/six2dez/OneListForAll/tree/main (right now not grabbing the whole thing, just short and micro)
-AssetNote - http://wordlists.assetnote.io 
+SecLists - https://github.com/danielmiessler/SecLists\ 
+OneListForAll - https://github.com/six2dez/OneListForAll/tree/main (right now not grabbing the whole thing, just short and micro)\
+AssetNote - http://wordlists.assetnote.io\
 IP Ranges - https://github.com/lord-alfred/ipranges/blob/main/all/ipv4_merged.txt
 
 # Install
-git clone <link>
-cd vps-recon-setup
-chmod +x vps-recon-setup.sh
-sudo ./vps-recon-setup.sh
+git clone https://github.com/boxalarm/vps-recon-setup\
+cd vps-recon-setup\
+chmod +x vps-recon-setup.sh\
+sudo ./vps-recon-setup.sh\
 source ~/.bashrc
